@@ -56,4 +56,6 @@ For the real-time implementation and testing of the algorithm, two python  and o
 
 2. `realtime_csi_data.py` scripts is used to acquire the real time data from the serial monitor and save it on a csv file and update the csv file with new data every 3 seconds.
 
-`realtime_system_testing.py` script reads the updated data frame and applies the model for the testing of the real-time data.
+3. `realtime_system_testing.py` script reads the updated data frame and applies the model for the testing of the real-time data.
+
+The rest is yet to be updated.
