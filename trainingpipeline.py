@@ -1,3 +1,4 @@
+### This is the training pipeline file.
 ## Necessary Imports
 import numpy as np
 import pandas as pd
@@ -235,4 +236,3 @@ if __name__ == "__main__":
 
     ## Dump Model to Target Location
     pickle.dump(pipe2, open(f"{model_params}\\pipefinal_knn.pkl","wb"))
-+
