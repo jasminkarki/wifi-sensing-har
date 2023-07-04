@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ```
 
 - Configurations of ESP
+ 
     Two ESP32 Node MCU are used in the project. One NodeMCU works as an access point and other NodeMCU works as a station. The firmware for the access point and the station board are inside the `active_ap` and `active_sta`.
 
     The following configuration has to be done for both the access point and station board.
@@ -47,8 +48,7 @@ pip install -r requirements.txt
     ```
     idf.py -p /dev/ttyUSB0 flash
     ```
-    Real Time Implementation of System:
-
+ - Real Time Implementation of System:
 
     Two esp32 boards(station and access point) should be placed at a separation of about 2 meters to collect data. We have not used the external antenna with the board and dependent only on the antenna built on the board itself, so the larger separation will not work.
 
