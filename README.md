@@ -1,7 +1,7 @@
 # Wifi-Sensing-HAR
 
 Human Activity Recognition using Wifi signal Channel State Information(CSI) data
-Device: ESP 32 (easily available in the market)
+Device: ESP32 Microcontroller (easily available in the market)
 
 
 ## Local Implementation
